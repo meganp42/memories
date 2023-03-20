@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Rubik:wght@300&family=Titan+One&display=swap');
+
+html{
+    background-color: rgb(252, 244, 236);
+    background-image: url('images/star-background.png');
+}
+
+#sparkle-bckgrd{
+    background-image: url('images/sparkle-background.png')
+}
+
+h1{
+    font-family: 'Titan One';
+    font-size: 110px;
+    /* color: cornflowerblue; */
+    text-align: center;
+    line-height: 0cm;
+}
+
+h2{
+    font-family: 'Titan One';
+    font-size: 50px;
+    /* color: cornflowerblue; */
+    text-align: center;
+}
+
+#mlh1{
+    line-height: 3cm;
+    width: 1200px;
+}
+
+#mlh2{
+    line-height: 2cm;
+    width: 1200px;
+}
+
+p{
+    font-family: 'Coming Soon';
+    font-size: 20px;
+    /* color: cornflowerblue; */
+    text-align: center;  
+}
+
+#sinigang-text{
+    text-align: left;
+}
+
+.foodborder{
+    padding-bottom: 5px;
+    margin-left: 80px;
+    margin-right: 80px;
+    border-style: solid;
+    border-width: 6px;
+    border-color: rgb(89, 128, 255);
+    border-radius: 40px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#sinigang{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#sinigang-textbox{
+    background-image: url("images/lined\ paper.jpeg");
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 40px;
+    width: 1020px;
+    margin: 40px;
+    padding-left: 120px;
+    padding-right: 100px;
+}
+
+#paper{
+    background-image: url("images/lined\ paper.jpeg");
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 40px;
+    width: auto;
+    margin: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.memoriesborder{
+    background-color: rgb(89, 128, 255);
+    /* padding-bottom: 5px; */
+    margin-left: 80px;
+    margin-right: 80px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 40px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#journal{
+    background-image: url("images/journal.png");
+    width: auto;
+    background-repeat: no-repeat;
+    height: 1600px;
+    background-position: 55%;
+}
+
+#journaltag{
+    background-color:white;
+    padding-bottom: 50px;
+    /* margin-top: 250px; */
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    max-width: 700px;
+    /* border-radius: 40px; */
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+a{
+    font-family: 'Titan One';
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 24pt;
+    /* text-decoration-color: black; */
+    color: black;  
+}
+
+#previous{
+    background-color: rgb(252, 69, 33);
+    padding: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 40px;
+}
+
+#next{
+    background-color: rgb(98, 211, 163);
+    padding: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 40px; 
+}
+
+a:hover,
+a.selected{
+    color:white;
+    border-bottom: 2px solid white;
+}
